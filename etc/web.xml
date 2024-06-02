@@ -4,6 +4,10 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_4.xsd"
     version="2.4">
 
+    <welcome-file-list>
+        <welcome-file>form.html</welcome-file>
+    </welcome-file-list>
+
     <servlet>
         <servlet-name>Helper</servlet-name>
         <servlet-class>com.dev.sunny.web.BeerSelect</servlet-class>
